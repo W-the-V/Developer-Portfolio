@@ -19,6 +19,7 @@
   font-size: 56px;
   font-weight: 400;
   line-height: normal;
+  text-align: center;
 }
 
 .cert-main-div > * {
@@ -29,12 +30,13 @@
   display: flex;
 }
 .cert-image-div > img {
-  max-width: 100%;
   height: auto;
 }
-.cert-text-div{
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+.cert-text-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
   gap: 32px;
 }
 
@@ -51,8 +53,8 @@
   }
 }
 
-@media screen and (max-width: 480px) and (min-width:300px){
-  .cert-text-div{
+@media screen and (max-width: 480px) and (min-width: 300px) {
+  .cert-text-div {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   }
 }

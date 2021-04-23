@@ -5,69 +5,72 @@ import emoji from "react-easy-emoji";
 // Your Summary And Greeting Section
 
 const greeting = {
-  username: "Bharat Kammakatla",
-  title: "Hi all, I'm Bharat",
-  subTitle: emoji(
-    "Front End Developer 👨‍💻 | Data Science Enthusiast 📊 | Tech Writer ✍️ "
-  ),
+  username: "Walter Hills",
+  title: "Hello, I'm Walter",
+  subTitle: emoji("Full-stack Developer"),
   resumeLink:
-    "https://drive.google.com/file/d/1gsPhoU4Dg-bFSlf3K-SFrKHO0XTBpS0i/view?usp=sharing",
+    "https://docs.google.com/document/d/1I8yRsnTW1eYQBie0czzhz7ZmAAn47Ha1HQrp2nDy9dA/edit?usp=sharing",
 };
 
 // Your Social Media Link
 
 const socialMediaLinks = {
-  github: "https://github.com/bharatkammakatla",
-  linkedin: "https://www.linkedin.com/in/bharatkammakatla",
-  gmail: "bharatkammakatla@gmail.com",
-  facebook: "https://www.facebook.com/bharat.kammakatla",
-  twitter: "https://twitter.com/Bharat__K",
+  github: "https://github.com/W-the-V",
+  linkedin: "https://www.linkedin.com/in/walter-hills-a52535205/",
+  gmail: "walter.hills5@gmail.com",
 };
 
 // Your Skills Section
 
 const skillsSection = {
-  title: "What i do",
-  subTitle:
-    "HANDLING ALL TEST AUTOMATION ACTIVITIES AND EXPLORING DATA SCIENCE",
+  title: "Skills",
+  subTitle: "(So far)",
   skills: [
-    emoji(
-      "⚡ Designing and developing Test Automation frameworks using Python and Java"
-    ),
-    emoji("⚡ End to End automation executions"),
-    emoji(
-      "⚡ Working on test automation tools like Selenium, Appium, UFT, SoapUI, AutoIT, Katalon Studio, Seetest Mobile Cloud administration, etc"
-    ),
-    emoji(
-      "⚡ Building predictive models to extract insights and make decisions out of data"
-    ),
+    emoji("⚡ Git Workflow"),
+    emoji("⚡ Test-driven Development"),
+    emoji("⚡ Collaborative Programming"),
+    emoji("⚡ Data Structures & Algorithms"),
   ],
 
   softwareSkills: [
     {
-      skillName: "python",
+      skillName: "JavaScript",
+      classname: "logos:javascript",
+      style: {
+        backgroundColor: "transparent",
+      },
+    },
+    {
+      skillName: "Python",
       classname: "logos:python",
       style: {
         backgroundColor: "transparent",
       },
     },
     {
-      skillName: "java",
-      classname: "logos:java",
-      style: {
-        backgroundColor: "transparent",
-      },
-    },
-    {
-      skillName: "reactJS",
+      skillName: "React.js",
       classname: "simple-icons:react",
       style: {
         color: "#61DAFB",
       },
     },
     {
-      skillName: "maven",
-      classname: "vscode-icons:file-type-maven",
+      skillName: "Redux.js",
+      classname: "logos:redux",
+      style: {
+        backgroundColor: "transparent",
+      },
+    },
+    {
+      skillName: "Sequelize",
+      classname: "logos:sequelize",
+      style: {
+        backgroundColor: "transparent",
+      },
+    },
+    {
+      skillName: "Express",
+      classname: "simple-icons:express",
       style: {
         backgroundColor: "transparent",
       },
@@ -80,37 +83,85 @@ const skillsSection = {
       },
     },
     {
-      skillName: "jenkins",
-      classname: "vscode-icons:file-type-jenkins",
+      skillName: "flask",
+      classname: "simple-icons:flask",
       style: {
         backgroundColor: "transparent",
       },
     },
     {
-      skillName: "postgres",
+      skillName: "SQLAlchemy",
       classname: "logos:postgresql",
       style: {
         backgroundColor: "transparent",
       },
     },
     {
-      skillName: "tensorflow",
-      classname: "logos-tensorflow",
+      skillName: "PostgreSQL",
+      classname: "logos:postgresql",
       style: {
         backgroundColor: "transparent",
       },
     },
     {
-      skillName: "keras",
-      classname: "simple-icons:keras",
+      skillName: "Docker",
+      classname: "vscode-icons:file-type-docker",
       style: {
-        backgroundColor: "white",
-        color: "#D00000",
+        backgroundColor: "transparent",
       },
     },
     {
-      skillName: "flask",
-      classname: "simple-icons:flask",
+      skillName: "Amazon Web Services",
+      classname: "la:aws",
+      style: {
+        backgroundColor: "transparent",
+      },
+    },
+    {
+      skillName: "Mocha",
+      classname: "logos:mocha",
+      style: {
+        backgroundColor: "transparent",
+      },
+    },
+    {
+      skillName: "Chai",
+      classname: "logos:chai",
+      style: {
+        backgroundColor: "transparent",
+      },
+    },
+    {
+      skillName: "Pytest",
+      classname: "file-icons:pytest",
+      style: {
+        backgroundColor: "transparent",
+      },
+    },
+    {
+      skillName: "HTML-5",
+      classname: "logos:html-5",
+      style: {
+        backgroundColor: "transparent",
+      },
+    },
+    {
+      skillName: "CSS-3",
+      classname: "logos:css-3",
+      style: {
+        backgroundColor: "transparent",
+      },
+    },
+    {
+      skillName: "Materialize",
+      classname: "logos:materializecss",
+      style: {
+        backgroundColor: "transparent",
+      },
+    },
+    {
+      skillName: "Bootstrap",
+      classname: "logos:bootstrap",
       style: {
         backgroundColor: "transparent",
       },
@@ -159,8 +210,8 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "BharatKammakatla", // Change to your github username to view your profile in Contact Section.
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to false
+  githubUserName: "W-the-V", // Change to your github username to view your profile in Contact Section.
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to false
 };
 
 // Your certifications
@@ -168,58 +219,31 @@ const openSource = {
 const certifications = {
   certifications: [
     {
-      title: "Selenium",
-      subtitle: "- Vskills",
-      logo_path: "vskills-logo.png",
-      certificate_link:
-        "https://www.vskills.in/certification/40215-certified-selenium-professional-bharat-babu-kammakatla",
-      alt_name: "Vskills",
-      color_code: "#F6EAEA",
+      title: "NetSteam",
+      subtitle:
+        "JavaScript, React / Redux, Express / Sequelize, HTML, CSS, PostgreSQL",
+      logo_path: "netsteam.png",
+      certificate_link: "https://netsteam.herokuapp.com/",
+      alt_name: "netsteam",
+      color_code: "#001C55",
     },
     {
-      title: "Cloud Admin & Automation",
-      subtitle: "- Experitest",
-      logo_path: "seetest-logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1qhh1ZUBB2VPrOaT6bNgiJ5Y2sHmCjvMg/view?usp=drivesdk",
-      alt_name: "Experitest",
-      color_code: "#F0FFDD",
+      title: "WhateverNote",
+      subtitle:
+        "JavaScript, React / Redux, Python, Flask / SQLAlchemy, HTML5, CSS, PostgreSQL, Docker",
+      logo_path: "whatevernote.png",
+      certificate_link: "https://whatevernote-app.herokuapp.com/",
+      alt_name: "whatevernote",
+      color_code: "#001C55",
     },
     {
-      title: "Python",
-      subtitle: "- Jose Portilla",
-      logo_path: "pierian-data-logo.png",
-      certificate_link:
-        "https://www.udemy.com/certificate/UC-a80d6e7c-e753-421d-bcee-5a7bc1769f28/",
-      alt_name: "Pierian-Data",
-      color_code: "#FEF6E6",
-    },
-    {
-      title: "Selenium Python",
-      subtitle: "- Rahul Shetty",
-      logo_path: "rahulshettyacademy-logo.png",
-      certificate_link:
-        "https://www.udemy.com/certificate/UC-e4b66abd-18c6-4bfa-9132-ab22d2bf7ef7/",
-      alt_name: "RahulShettyAcademy",
-      color_code: "#FDE9EA",
-    },
-    {
-      title: "Data Science",
-      subtitle: "- IBM",
-      logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://coursera.org/share/893f2210f39f5a60d0463b19b469b808",
-      alt_name: "IBM",
-      color_code: "#E3F1FA",
-    },
-    {
-      title: "ML and DS",
-      subtitle: "- Andrei Neagoie",
-      logo_path: "zero-to-mastery.png",
-      certificate_link:
-        "https://www.udemy.com/certificate/UC-fd118b7d-7436-442c-a7f8-5077c432d596/",
-      alt_name: "Zero To Mastery",
-      color_code: "#FFFDDD",
+      title: "HairBnB",
+      subtitle:
+        "JavaScript, React / Redux, Express / Sequelize, HTML5, CSS, PostgreSQL",
+      logo_path: "hairbnb.png",
+      certificate_link: "https://hairbnb-app.herokuapp.com/",
+      alt_name: "hairbnb",
+      color_code: "#001C55",
     },
   ],
 };
@@ -227,48 +251,27 @@ const certifications = {
 // Blogs Section
 
 const blogSection = {
-  title: "Blogs",
-  subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+  title: "Education",
 
   blogs: [
     {
-      url:
-        "https://blog.bharatkammakatla.com/selenium-python-automation-framework-how-to-build-cke5vij9p012h9ds1fsaocyax",
-      title: "How to build a Selenium Python Automation Framework",
-      description:
-        "Interested in building a test automation framework with selenium and python? If so, check out here !",
+      url: "https://www.appacademy.io/",
+      title: "App Academy",
+      description: "Full-stack Software Engineering Bootcamp",
     },
     {
-      url:
-        "https://blog.bharatkammakatla.com/steps-to-build-a-selenium-java-framework-ckdsi73xg005ga9s1defhemfz",
-      title: "Steps to build a Selenium Java Automation Framework",
-      description:
-        "Interested in building a test automation framework with selenium and java? If so, check out here !",
-    },
-    {
-      url:
-        "https://blog.bharatkammakatla.com/face-expression-recognition-using-keras-and-cnns-ckbevmufo0195dis1dfs10kt1",
-      title: "Building a Machine Learning model to detect human emotions",
-      description:
-        "Are you interested to know how machines detect human emotions? If so, check out here !",
-    },
-    {
-      url:
-        "https://medium.com/@bharatkammakatla/basic-end-to-end-scikit-learn-workflow-cd9e9a50491b?source=friends_link&sk=b828ac262c172abd7508efcbd00e5bd3",
-      title: "Basic End-to-End Scikit-Learn workflow",
-      description:
-        "Do you want to know how a basic end-to-end scikit-learn workflow is implemented ? If so, check out here !",
+      url: "https://www.utm.edu/",
+      title: "University of Tennessee",
+      description: "Bachelor's of Science - Psychology 4.0 Major GPA",
     },
   ],
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+852 51606863",
-  email_address: "bharatkammakatla@gmail.com",
+  title: emoji("Contact Me"),
+  subtitle: "I am currently seeking employment",
+  number: "+1 (731)-467-1405 ",
+  email_address: "walter.hills5@gmail.com",
 };
 
 export {

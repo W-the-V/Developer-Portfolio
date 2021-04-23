@@ -5,6 +5,7 @@
   padding: 0px 20px;
   margin: 0px auto;
   background-color: #fff;
+  box-shadow: 0 0 36px rgba(0, 0, 0, 0.3);
 }
 
 .header ul {
@@ -39,12 +40,12 @@
   line-height: normal;
 }
 .header .logo-name {
-  font-family: 'Agustina Regular';
+  font-family: "Agustina Regular";
   font-weight: bold;
   font-variant-ligatures: no-common-ligatures;
   -webkit-font-variant-ligatures: no-common-ligatures;
   padding: 0 10px;
-  color: #001C55;
+  color: #001c55;
 }
 
 /* menu */
