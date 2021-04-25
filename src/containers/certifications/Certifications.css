@@ -14,12 +14,19 @@
 .square:hover {
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
 }
-
+.cert-sub-header {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #868e96;
+}
 .cert-header-title {
   font-size: 56px;
   font-weight: 400;
   line-height: normal;
   text-align: center;
+  margin-bottom: 0;
 }
 
 .cert-main-div > * {
@@ -32,6 +39,7 @@
 .cert-image-div > img {
   height: auto;
 }
+
 .cert-text-div {
   display: flex;
   flex-direction: column;

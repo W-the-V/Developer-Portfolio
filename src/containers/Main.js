@@ -9,6 +9,7 @@ import Footer from "../components/footer/Footer";
 import Top from "./topbutton/Top";
 import Profile from "./profile/Profile";
 import Certifications from "./certifications/Certifications";
+import About from "./about/About";
 
 export default class Main extends Component {
   render() {
@@ -21,6 +22,7 @@ export default class Main extends Component {
         <Projects />
         <Certifications />
         <Blogs />
+        <About />
         <Profile />
         <Footer />
         <Top />

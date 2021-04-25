@@ -39,6 +39,7 @@ const skillsSection = {
       style: {
         backgroundColor: "transparent",
       },
+      link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
     },
     {
       skillName: "Python",
@@ -46,6 +47,7 @@ const skillsSection = {
       style: {
         backgroundColor: "transparent",
       },
+      link: "https://docs.python.org/3/",
     },
     {
       skillName: "React.js",
@@ -53,6 +55,7 @@ const skillsSection = {
       style: {
         color: "#61DAFB",
       },
+      link: "https://reactjs.org/docs/getting-started.html",
     },
     {
       skillName: "Redux.js",
@@ -60,6 +63,7 @@ const skillsSection = {
       style: {
         backgroundColor: "transparent",
       },
+      link: "https://redux.js.org/",
     },
     {
       skillName: "Sequelize",
@@ -67,6 +71,7 @@ const skillsSection = {
       style: {
         backgroundColor: "transparent",
       },
+      link: "https://sequelize.org/",
     },
     {
       skillName: "Express",
@@ -74,20 +79,24 @@ const skillsSection = {
       style: {
         backgroundColor: "transparent",
       },
+      link: "https://expressjs.com/en/api.html",
     },
     {
-      skillName: "git",
-      classname: "logos:git-icon",
+      skillName: "GitHub",
+      classname: "logos:github-icon",
       style: {
         backgroundColor: "transparent",
       },
+      link: "https://docs.github.com/en",
     },
+
     {
-      skillName: "flask",
+      skillName: "Flask",
       classname: "simple-icons:flask",
       style: {
         backgroundColor: "transparent",
       },
+      link: "https://flask.palletsprojects.com/en/1.1.x/",
     },
     {
       skillName: "SQLAlchemy",
@@ -95,6 +104,7 @@ const skillsSection = {
       style: {
         backgroundColor: "transparent",
       },
+      link: "https://docs.sqlalchemy.org/en/14/",
     },
     {
       skillName: "PostgreSQL",
@@ -102,6 +112,7 @@ const skillsSection = {
       style: {
         backgroundColor: "transparent",
       },
+      link: "https://www.postgresql.org/docs/",
     },
     {
       skillName: "Docker",
@@ -109,27 +120,31 @@ const skillsSection = {
       style: {
         backgroundColor: "transparent",
       },
+      link: "https://docs.docker.com/",
     },
     {
-      skillName: "Amazon Web Services",
+      skillName: "AWS S3",
       classname: "la:aws",
       style: {
         backgroundColor: "transparent",
       },
+      link: "https://docs.aws.amazon.com/",
     },
     {
-      skillName: "Mocha",
+      skillName: "Mocha.js",
       classname: "logos:mocha",
       style: {
         backgroundColor: "transparent",
       },
+      link: "https://mochajs.org/",
     },
     {
-      skillName: "Chai",
+      skillName: "Chai.js",
       classname: "logos:chai",
       style: {
         backgroundColor: "transparent",
       },
+      link: "https://www.chaijs.com/api/bdd/",
     },
     {
       skillName: "Pytest",
@@ -137,6 +152,7 @@ const skillsSection = {
       style: {
         backgroundColor: "transparent",
       },
+      link: "https://docs.pytest.org/en/stable/contents.html",
     },
     {
       skillName: "HTML-5",
@@ -144,6 +160,7 @@ const skillsSection = {
       style: {
         backgroundColor: "transparent",
       },
+      link: "https://developer.mozilla.org/en-US/docs/Web/HTML",
     },
     {
       skillName: "CSS-3",
@@ -151,6 +168,7 @@ const skillsSection = {
       style: {
         backgroundColor: "transparent",
       },
+      link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
     },
     {
       skillName: "Materialize",
@@ -158,6 +176,7 @@ const skillsSection = {
       style: {
         backgroundColor: "transparent",
       },
+      link: "https://materializecss.com/",
     },
     {
       skillName: "Bootstrap",
@@ -165,6 +184,7 @@ const skillsSection = {
       style: {
         backgroundColor: "transparent",
       },
+      link: "https://getbootstrap.com/docs/5.0/getting-started/introduction/",
     },
   ],
 };
@@ -226,6 +246,9 @@ const certifications = {
       certificate_link: "https://netsteam.herokuapp.com/",
       alt_name: "netsteam",
       color_code: "#001C55",
+      certificate_link2: "https://github.com/W-the-V/NetSteam",
+      about:
+        "NetSteam is a full-stack conceptual combination of Netflix and Steam into a single application focused on the sharing and review of Video-Game trailers. Users can create, read, update, and delete reviews as well as see their total reviews posted beside their review seamlessly without refresh. These reviews contain both a text component and a rating component that can both be edited. Users can also change their profile picture and username (with validation) which will automatically update anywhere on the site that the picture can be seen, also without refresh. Users can view trailers in a variety of places as well as have trailers sorted on their home page in sections that will provide video game trailers by popularity or genre. Users can search the video game trailers by clicking any of the genre buttons on each trailer content section or by utilizing the search bar at the top which will show a modal that will live update with relevant information as the user types.",
     },
     {
       title: "WhateverNote",
@@ -235,6 +258,9 @@ const certifications = {
       certificate_link: "https://whatevernote-app.herokuapp.com/",
       alt_name: "whatevernote",
       color_code: "#001C55",
+      certificate_link2: "https://github.com/W-the-V/WhatEverNote",
+      about:
+        "Collaborative full-stack application based on the website 'EverNote'. Users can create notes with rich text-editing as well as notebooks to store them.",
     },
     {
       title: "HairBnB",
@@ -244,6 +270,9 @@ const certifications = {
       certificate_link: "https://hairbnb-app.herokuapp.com/",
       alt_name: "hairbnb",
       color_code: "#001C55",
+      certificate_link2: "https://github.com/W-the-V/hairBnB",
+      about:
+        "Full-stack application based on the website 'AirBnB' but for all manner of hair cutting establishments. users can search for hair cutting establishments by barbershops, salons, and hair donation types. Utilizes the google maps API for increased user experience",
     },
   ],
 };

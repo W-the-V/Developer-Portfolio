@@ -7,6 +7,7 @@
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   flex: 0 0 30%;
   width: 59%;
+  min-width: 400px;
 }
 
 .cert-header {
@@ -21,9 +22,20 @@
   width: auto;
   height: 100%;
 }
+.cert-about-text {
+  margin-top: 0;
+  font-size: 14px;
+  width: 90%;
+  align-self: center;
+  text-align: left;
+  margin-bottom: 20px;
+}
 
 .cert-body {
   margin: 0px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
 }
 
 .cert-body-title {
@@ -35,6 +47,7 @@
   font-size: 17px;
   color: #808080;
   margin: 10px;
+  margin-top: 0;
 }
 
 .content {
@@ -43,6 +56,7 @@
   margin: auto;
   overflow: hidden;
   border-radius: 10px 10px 0px 0px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
 }
 
 .content .content-overlay {
@@ -59,9 +73,20 @@
   -moz-transition: all 0.4s ease-in-out 0s;
   transition: all 0.4s ease-in-out 0s;
 }
-
 .content:hover .content-overlay {
   opacity: 1;
+}
+.projectLinks {
+  width: 50%;
+  height: 100%;
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.projectLinks:hover > h3 {
+  text-decoration: underline;
 }
 
 .content-details {
@@ -69,21 +94,20 @@
   text-align: center;
   padding-left: 1em;
   padding-right: 1em;
+  display: flex;
+  align-content: center;
+  justify-content: center;
   width: 100%;
-  top: 50%;
-  left: 50%;
+  height: 100%;
   opacity: 0;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  -moz-transition: all 0.3s ease-in-out 0s;
+
   transition: all 0.3s ease-in-out 0s;
+}
+#linkLeft {
+  border-right: 1px solid white;
 }
 
 .content:hover .content-details {
-  top: 50%;
-  left: 50%;
   opacity: 1;
 }
 
@@ -93,10 +117,11 @@
   letter-spacing: 0.15em;
   margin-bottom: 0.5em;
   text-transform: uppercase;
+  align-self: center;
 }
 
 .fadeIn-top {
-  top: 20%;
+  top: 0%;
 }
 
 @media screen and (max-width: 480px) and (min-width: 300px) {

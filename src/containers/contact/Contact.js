@@ -8,10 +8,9 @@ export default function Contact() {
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main contact-margin-top" id="contact">
-        <h1 className="heading contact-title">{contactInfo.title}</h1>
         <div className="contact-div-main">
           <div className="contact-header">
-            <p className="subTitle contact-subtitle">{contactInfo.subtitle}</p>
+            <h1 className="heading contact-title">{contactInfo.title}</h1>
 
             <div className="contact-text-div">
               <a className="contact-detail" href={"tel:" + contactInfo.number}>
@@ -33,7 +32,7 @@ export default function Contact() {
           <div className="contact-image-div">
             <img
               alt="Contact Mail"
-              src={require("../../assets/images/greetImg.jpg")}
+              src={require("../../assets/images/contactMail.webp")}
             ></img>
           </div>
         </div>

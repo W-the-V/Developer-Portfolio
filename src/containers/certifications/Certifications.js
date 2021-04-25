@@ -9,6 +9,7 @@ export default function Certifications() {
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="projects">
         <h1 className="cert-header-title">Projects</h1>
+        <h2 className="cert-sub-header">(Sorted by recency)</h2>
         <div className="cert-main-div">
           <div className="cert-text-div">
             {certifications.certifications.map((cert) => {
