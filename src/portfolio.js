@@ -239,10 +239,21 @@ const openSource = {
 const certifications = {
   certifications: [
     {
+      title: "Algorithmic",
+      subtitle: "JavaScript, React / Redux, HTML5, CSS, Bootstrap",
+      logo_path: "home.gif",
+      certificate_link: "https://algorithmic-app.herokuapp.com/",
+      alt_name: "algorithmic",
+      color_code: "#001C55",
+      certificate_link2: "https://github.com/W-the-V/algorithmic",
+      about:
+        "Algorithmic is a front-end only application that visualizes a few common sorting algorithms to make them easier to understand while also being visually appealing. Visitors can change the size, speed, and algorithm used.",
+    },
+    {
       title: "NetSteam",
       subtitle:
         "JavaScript, React / Redux, Express / Sequelize, HTML, CSS, PostgreSQL",
-      logo_path: "netsteam.png",
+      logo_path: "netsteam.gif",
       certificate_link: "https://netsteam.herokuapp.com/",
       alt_name: "netsteam",
       color_code: "#001C55",
@@ -254,25 +265,13 @@ const certifications = {
       title: "WhateverNote",
       subtitle:
         "JavaScript, React / Redux, Python, Flask / SQLAlchemy, HTML5, CSS, PostgreSQL, Docker",
-      logo_path: "whatevernote.png",
+      logo_path: "whatevernote.gif",
       certificate_link: "https://whatevernote-app.herokuapp.com/",
       alt_name: "whatevernote",
       color_code: "#001C55",
       certificate_link2: "https://github.com/W-the-V/WhatEverNote",
       about:
         "Collaborative full-stack application based on the website 'EverNote'. Users can create notes with rich text-editing as well as notebooks to store them.",
-    },
-    {
-      title: "HairBnB",
-      subtitle:
-        "JavaScript, React / Redux, Express / Sequelize, HTML5, CSS, PostgreSQL",
-      logo_path: "hairbnb.png",
-      certificate_link: "https://hairbnb-app.herokuapp.com/",
-      alt_name: "hairbnb",
-      color_code: "#001C55",
-      certificate_link2: "https://github.com/W-the-V/hairBnB",
-      about:
-        "Full-stack application based on the website 'AirBnB' but for all manner of hair cutting establishments. users can search for hair cutting establishments by barbershops, salons, and hair donation types. Utilizes the google maps API for increased user experience",
     },
   ],
 };
